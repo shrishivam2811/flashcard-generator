@@ -84,11 +84,8 @@ outputs = self.model.generate(
 ## Performance Notes
 
 - **Model Loading**: First run takes longer due to model download (~1GB)
-- **Generation Speed**: ~2-3 seconds per chunk on CPU, faster on GPU
-- **Memory Usage**: ~3GB RAM for base model, more for larger variants
-- **Batch Processing**: Automatically chunks large documents for processing
-
-
+- **Generation Time**: ~3-5 minutes on CPU, faster on GPU
+  
 ## Troubleshooting
 
 ### Common Issues
